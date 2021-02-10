@@ -2,6 +2,69 @@
 // -- is not working
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
+    switch (i) {
+      case 0:
+        array[0] = 'I am 0 strange loops.';
+        break;
+      case 1:
+        array[1] = 'I am 1 strange loop.';
+        break;
+      case 2:
+        array[2] = 'I am 2 strange loops.';
+        break;
+      case 3:
+        array[3] = 'I am 3 strange loops.';
+        break;
+      case 4:
+        array[4] = 'I am 4 strange loops.';
+        break;
+      case 5:
+        array[5] = 'I am 5 strange loops.';
+        break;
+      case 6:
+        array[6] = 'I am 6 strange loops.';
+        break;
+      case 7:
+        array[7] = 'I am 7 strange loops.';
+        break;
+      case 8:
+        array[8] = 'I am 8 strange loops.';
+        break;
+      case 9:
+        array[9] = 'I am 9 strange loops.';
+        break;
+      case 10:
+        array[10] = 'I am 10 strange loops.';
+        break;
+      case 2:
+        array[2] = 'I am 2 strange loops.';
+        break;
+      case 3:
+        array[3] = 'I am 3 strange loops.';
+        break;
+      case 4:
+        array[4] = 'I am 4 strange loops.';
+        break;
+      case 5:
+        array[5] = 'I am 5 strange loops.';
+        break;
+      case 6:
+        array[6] = 'I am 6 strange loops.';
+        break;
+      case 7:
+        array[7] = 'I am 7 strange loops.';
+        break;
+      case 8:
+        array[8] = 'I am 8 strange loops.';
+        break;
+      case 9:
+        array[9] = 'I am 9 strange loops.';
+        break;
+      case 10:
+        array[10] = 'I am 10 strange loops.';
+        break;
+    }
+
     if (i === 1) {
       array[i] = 'I am 1 strange loop.';
       return array;

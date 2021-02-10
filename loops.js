@@ -1,5 +1,12 @@
-function forLoop(array) {
-  for(let i = 0; i <= array.length; i += 1) {
-    array.push(`I am ${i} strange loop${i === 0 ? '' : 's'}.`) ;
+//For loop goes Here
+
+
+//While loop
+
+function whileLoop(num) {
+  while(num > 0) {
+    console.log(num);
+    num
   }
+  return 'done';
 }

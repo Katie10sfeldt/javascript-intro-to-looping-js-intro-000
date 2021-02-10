@@ -51,18 +51,38 @@ function forLoop(array) {
       case 15:
         array[15] = 'I am 15 strange loops.';
         break;
-      case 7:
-        array[7] = 'I am 7 strange loops.';
+      case 16:
+        array[16] = 'I am 16 strange loops.';
         break;
-      case 8:
-        array[8] = 'I am 8 strange loops.';
+      case 17:
+        array[17] = 'I am 17 strange loops.';
         break;
-      case 9:
-        array[9] = 'I am 9 strange loops.';
+      case 18:
+        array[18] = 'I am 18 strange loops.';
         break;
-      case 10:
-        array[10] = 'I am 10 strange loops.';
+      case 19:
+        array[19] = 'I am 19 strange loops.';
         break;
+      case 20:
+        array[20] = 'I am 20 strange loops.';
+        break;
+      case 21:
+        array[21] = 'I am 21 strange loops.';
+        break;
+      case 22:
+        array[22] = 'I am 22 strange loops.';
+        break;
+      case 23:
+        array[23] = 'I am 23 strange loops.';
+        break;
+      case 24:
+        array[24] = 'I am 24 strange loops.';
+        break;
+      case 25:
+        array[25] = 'I am 25 strange loops.';
+        break;
+      default:
+        array[i] = 'I am 1 strange loop.'
     }
 
     if (i === 1) {

@@ -85,13 +85,13 @@ function forLoop(array) {
         array[i] = 'I am 1 strange loop.'
     }
 
-    if (i === 1) {
-      array[i] = 'I am 1 strange loop.';
-      return array;
-    } else {
-      array[i] = `I am ${i} strange loops.`;
-      return array;
-    }
+    // if (i === 1) {
+    //   array[i] = 'I am 1 strange loop.';
+    //   return array;
+    // } else {
+    //   array[i] = `I am ${i} strange loops.`;
+    //   return array;
+    // }
     return array;
   }
 }

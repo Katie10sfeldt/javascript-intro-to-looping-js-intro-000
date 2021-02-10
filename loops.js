@@ -36,20 +36,20 @@ function forLoop(array) {
       case 10:
         array[10] = 'I am 10 strange loops.';
         break;
-      case 2:
-        array[2] = 'I am 2 strange loops.';
+      case 11:
+        array[11] = 'I am 11 strange loops.';
         break;
-      case 3:
-        array[3] = 'I am 3 strange loops.';
+      case 12:
+        array[12] = 'I am 12 strange loops.';
         break;
-      case 4:
-        array[4] = 'I am 4 strange loops.';
+      case 13:
+        array[13] = 'I am 13 strange loops.';
         break;
-      case 5:
-        array[5] = 'I am 5 strange loops.';
+      case 14:
+        array[14] = 'I am 14 strange loops.';
         break;
-      case 6:
-        array[6] = 'I am 6 strange loops.';
+      case 15:
+        array[15] = 'I am 15 strange loops.';
         break;
       case 7:
         array[7] = 'I am 7 strange loops.';

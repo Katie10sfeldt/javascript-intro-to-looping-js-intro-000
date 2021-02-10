@@ -2,7 +2,7 @@
 // -- is not working
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
-    if (i === 1) {
+    if (i === 1 || i === undefined) {
       array[i] = 'I am 1 strange loop.';
       return array;
     } else {

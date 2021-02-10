@@ -1,4 +1,15 @@
 //For loop goes Here
+// -- is not working
+function forLoop(array) {
+  for (let i = 0; i < 25; i++) {
+    if (i === 1) {
+      return 'I am 1 strange loop.';
+    } else {
+      return `I am ${i} strange loops.`;
+    }
+    return array[i];
+  }
+}
 
 
 //While loop - takes num as a parameter and counts down from given number
@@ -13,7 +24,8 @@ function whileLoop(num) {
   return 'done';
 }
 
-//Do While Loops
+//Do While Loops - logs the statement at least once, then as long as the incremented variable is less than the given int, it will print
+// -- is working
 
 function doWhileLoop(int) {
   let i = 0;
